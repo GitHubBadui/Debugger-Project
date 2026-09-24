@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/debugger.dir/link.d CMakeFiles/debugger.dir/debugger.cpp.o CMakeFiles/debugger.dir/linenoise.c.o CMakeFiles/debugger.dir/main.cpp.o -o debugger  -lgcc_s_asneeded -lgcc_s_asneeded

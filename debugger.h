@@ -21,3 +21,6 @@ private:
     std::string m_prog_name;
     pid_t m_pid;
 };
+
+std::vector<std::string> split(const std::string &s, char delimiter);
+bool is_prefix(const std::string& s, const std::string& of);
