@@ -1,5 +1,6 @@
 #include <iostream>
 #include <unistd.h>
+#include "debugger.h"
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
@@ -18,5 +19,9 @@ int main(int argc, char* argv[]) {
     else if (pid >= 1)  {
         //we're in the parent process
         //execute debugger
+
+        std::cout << "Started debugging process " << pid << '\n';
+        debugger dbg{prog, pid};
+        dbg.run();
     }
 }
