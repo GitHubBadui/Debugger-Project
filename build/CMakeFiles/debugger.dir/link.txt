@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/debugger.dir/link.d CMakeFiles/debugger.dir/main.cpp.o -o debugger

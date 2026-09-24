@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/eitanradinsky/Debbuger/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

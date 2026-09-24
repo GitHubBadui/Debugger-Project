@@ -1,0 +1,3 @@
+/home/eitanradinsky/Debbuger/build/CMakeFiles/debugger.dir
+/home/eitanradinsky/Debbuger/build/CMakeFiles/edit_cache.dir
+/home/eitanradinsky/Debbuger/build/CMakeFiles/rebuild_cache.dir
